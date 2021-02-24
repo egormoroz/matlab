@@ -1,3 +1,4 @@
+eps = 1e-7;
 x1 = linspace(-2, 0, 100);
 x2 = linspace(0, 2, 100);
 f = @(x) x.^2 + 1./x;
